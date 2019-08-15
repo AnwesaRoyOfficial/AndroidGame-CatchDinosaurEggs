@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/background03"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="150dp"
+        android:layout_height="50dp"
+        android:text=" : 300"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000" />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/startLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="130dp"/>
+
+        <ImageView
+
+            android:id="@+id/box"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/box"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView
+            android:id="@+id/orange"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/egg2cropped" />
+
+        <ImageView
+            android:id="@+id/black"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/egg4cropped" />
+
+        <ImageView
+            android:id="@+id/pink"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/egg1cropped" />
+
+
+        <ImageView
+            android:id="@+id/meteor1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/meteor1" />
+
+        <ImageView
+            android:id="@+id/meteor2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/meteor2" />
+
+
+        <ImageView
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="250dp"
+            android:id="@+id/DinoJump"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/jump1" />
+
+        <ImageView
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="250dp"
+            android:id="@+id/DinoRun"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/run1" />
+
+
+        <ImageView
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="250dp"
+            android:id="@+id/DinoWalk"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/walk1" />
+
+
+
+    </FrameLayout>
+
+</RelativeLayout>

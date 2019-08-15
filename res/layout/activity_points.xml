@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    tools:context=".PointsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catch Dinosaur Eggs"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TableRow
+            android:gravity="center_vertical">
+
+            <ImageView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/egg1vertical" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tyrannosaurus rex"
+                android:textSize="10sp"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_vertical">
+
+            <ImageView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/coinsgold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20 points"
+                android:textSize="10sp"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_vertical">
+
+            <ImageView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/egg2vertical" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Triceratops horridus"
+                android:textSize="10sp"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_vertical">
+
+            <ImageView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/coinssilver" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="10sp"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_vertical">
+
+            <ImageView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/egg4vertical" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Velociraptor mongoliensis"
+                android:textSize="10sp"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_vertical">
+
+            <ImageView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/coinsbronze" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 points"
+                android:textSize="10sp"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_vertical">
+
+            <ImageView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/meteor1vertical" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meteor"
+                android:textSize="10sp"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_vertical">
+
+            <ImageView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/danger" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Danger"
+                android:textSize="10sp"
+                />
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnMyButton"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="30dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonshiny2"/>
+
+</LinearLayout>

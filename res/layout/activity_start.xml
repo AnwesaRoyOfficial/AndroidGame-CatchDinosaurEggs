@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/background03"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:id="@+id/wizardSprite"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/attack5"/>
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="200dp"
+        android:layout_width="70dp"
+        android:layout_height="210dp"
+        android:background="@drawable/buttonshiny1"/>
+
+
+
+</RelativeLayout>

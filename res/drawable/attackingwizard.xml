@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/attack5" android:duration="100" />
+    <item android:drawable="@drawable/attack6" android:duration="100" />
+    <item android:drawable="@drawable/attack7" android:duration="100" />
+    <item android:drawable="@drawable/attack8" android:duration="100" />
+    <item android:drawable="@drawable/attack9" android:duration="100" />
+    <item android:drawable="@drawable/attack1" android:duration="100" />
+    <item android:drawable="@drawable/attack2" android:duration="100" />
+    <item android:drawable="@drawable/attack3" android:duration="100" />
+    <item android:drawable="@drawable/attack4" android:duration="100" />
+    <item android:drawable="@drawable/attack5" android:duration="100" />
+    <item android:drawable="@drawable/attack91" android:duration="100" />
+    <item android:drawable="@drawable/attack92" android:duration="100" />
+    <item android:drawable="@drawable/attack93" android:duration="100" />
+    <item android:drawable="@drawable/attack94" android:duration="100" />
+    <item android:drawable="@drawable/attack95" android:duration="100" />
+
+
+
+</animation-list>
