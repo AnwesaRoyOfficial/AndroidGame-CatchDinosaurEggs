@@ -5,3 +5,7 @@ GAME CONCEPT: The mighty wizards have cast a spell on the universe. They have ac
 DESCRIPTION: Android Game in which dinosaurs eggs are falling from top to the screen. The player has to collect the eggs in a basket and avoid meteors. The score of the player depends upon the kind of dinosaur egg he/she collects. When the player encounters a meteor, the game is over. 
 
 LANGUAGES AND CODING ENVIRONMENT: Android, Android Studio, Java, XML
+
+YOUTUBE LINK:
+
+https://www.youtube.com/watch?v=9mgKYkw3bZ8&t=18s
