@@ -7,5 +7,4 @@ DESCRIPTION: Android Game in which dinosaurs eggs are falling from top to the sc
 LANGUAGES AND CODING ENVIRONMENT: Android, Android Studio, Java, XML
 
 YOUTUBE LINK:
-
-https://www.youtube.com/watch?v=9mgKYkw3bZ8&t=18s
+https://www.youtube.com/watch?v=QNRunVHsp38
